@@ -3,6 +3,7 @@ package com.thanhtrung.controller;
 import javax.inject.Inject;
 
 import com.thanhtrung.doman.Vote;
+import com.thanhtrung.exception.ResourceNotFoundException;
 import com.thanhtrung.repository.VoteRepository;
 
 import org.springframework.http.HttpHeaders;
